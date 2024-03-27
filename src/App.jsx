@@ -48,8 +48,8 @@ function App() {
         <RecentDonations />  {/* Recent Donations */}
         </section>
         <section className="">
-        <Progress />  {/* Progress */}
-        <DonationForm /> {/* Donation Form */}
+        <Progress targetAmount={targetAmount}/>  {/* Progress */}
+        <DonationForm donations={donations}/> {/* Donation Form */}
         </section>
       </main>
     </>
